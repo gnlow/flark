@@ -71,3 +71,30 @@ h [gap:0]
     {flag}
 </h>
 ```
+```
+| .. {catch} ..
+|
+    -
+        | {name_kr} ..
+        |
+            - {name_self}
+            - |
+            - {name_alt}
+            ..
+    - {flag}
+| {map}
+```
+```
+| <>
+| {catch}
+|
+    -
+        | <
+        | {name_kr}
+        |
+            - {name_self}
+            - |
+            - {name_alt}
+    - {flag}
+| {map}
+```
