@@ -1,0 +1,9 @@
+{
+    "imports": {
+        "antlr4ts": "https://denopkg.com/jabo-lang/antlr4ts-deno/mod.ts",
+        "antlr4ts/": "https://denopkg.com/jabo-lang/antlr4ts-deno/src/"
+    },
+    "tasks": {
+        "build": "antlr4ts -visitor -Xexact-output-dir -o src/parser/dist src/parser/Main.g4 && deno run --allow-read --allow-write convert.ts"
+    }
+}
